@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MorningSDKSample</string>
+    <string name="exit" tools:keep="@string/exit">Exit</string>
+    <string name="app_name_main" tools:keep="@string/app_name_main">Morningsoft</string>
+    <string name="bg_splash" tools:keep="@string/bg_splash">bg_splash</string>
+    <string name="img_gif" tools:keep="@string/img_gif">img_gif</string>
+    <string name="txtMorningsoft" translatable="false" tools:keep="@string/txtMorningsoft">Morningsoft</string>
+</resources>

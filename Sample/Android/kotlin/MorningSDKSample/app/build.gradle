@@ -1,0 +1,129 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-parcelize'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion rootProject.findProperty("android.compileSdkVersion") as Integer
+    buildToolsVersion rootProject.findProperty("android.buildToolsVersion")
+    defaultConfig {
+        applicationId findProperty("android.applicationId")
+        targetSdkVersion findProperty("android.targetSdkVersion") as Integer
+        minSdkVersion findProperty("android.minSdkVersion") as Integer
+        versionCode findProperty("android.versionCode") as Integer
+        versionName findProperty("android.versionName")
+        ndkVersion findProperty("android.ndkVersion")
+        ndk {
+            // [CAUSION] Crashes on x86 devices
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+            debugSymbolLevel 'FULL'
+        }
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+                version findProperty("android.cmakeVersion")
+            }
+        }
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+    }
+    signingConfigs {
+        debug {
+            storeFile file('../keystore/debug.jks')
+            storePassword '123456'
+            keyPassword '123456'
+            keyAlias 'debug'
+        }
+        release {
+            storeFile file('../keystore/release.jks')
+            storePassword '123456'
+            keyPassword '123456'
+            keyAlias 'release'
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+
+            buildConfigField "boolean", "IS_DEV", "true"
+            buildConfigField "String", "WEB_URL", "\"file:///android_asset/html/sample.html\""
+        }
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+
+            buildConfigField "boolean", "IS_DEV", "false"
+            buildConfigField "String", "WEB_URL", "\"file:///android_asset/html/sample.html\""
+        }
+
+        store {
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            debuggable false
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            // signingConfigs.store is not supported.
+            // You should be choice signingConfigs.release or signingConfigs.debug.
+            signingConfig signingConfigs.release
+
+            buildConfigField "boolean", "IS_DEV", "false"
+            buildConfigField "String", "WEB_URL", "\"https://@__SERVICE_DOMAIN__@\""
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+    buildFeatures{
+        viewBinding true
+        buildConfig = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlin {
+        jvmToolchain(17)
+    }
+    lint {
+        disable 'MissingDefaultResource'
+    }
+    androidResources {
+        // Obfuscation files should not be compressed.
+        noCompress "dat"
+    }
+    namespace 'com.morningsoft.morningsdksample'
+}
+
+dependencies {
+    implementation "androidx.core:core-ktx:$core_ktx_version"
+    implementation "androidx.appcompat:appcompat:$androidx_compat"
+    implementation "com.google.android.material:material:$material_version"
+    implementation "androidx.constraintlayout:constraintlayout:$constraint_layout_version"
+    testImplementation "junit:junit:$junit_version"
+    androidTestImplementation "androidx.test.ext:junit:$ext_junit_version"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_core"
+    implementation "androidx.preference:preference-ktx:$preference_ktx"
+
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
+
+    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
+    implementation files('libs/MorningSDK.aar')
+
+    //noinspection GradleDependency
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation "androidx.security:security-crypto-ktx:$security_crypto_ktx"
+
+    implementation "androidx.recyclerview:recyclerview:$recyclerview"
+    implementation "androidx.recyclerview:recyclerview-selection:$recyclerview_selection"
+}

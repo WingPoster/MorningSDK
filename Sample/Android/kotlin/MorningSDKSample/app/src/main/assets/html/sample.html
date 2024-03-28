@@ -1,0 +1,60 @@
+<!--
+//
+//  sample.html
+//  MorningSDKSample
+//
+//  Created by Kyojun.Kim on 18/07/2023.
+//  Copyright © 2023 Morningsoft. All rights reserved.
+//
+-->
+
+<html>
+<head>
+    <title>MorningSDK Sample</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/nativeInterface.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function receiveMessage(data) {
+            var protocol = JSON.parse(data)
+            console.log("receiveMessage : " + protocol.resultCode);
+            addReceived(atob(protocol.arguments));
+        }
+    </script>
+    <script type="text/javascript">
+            function initNative() {
+                bind()
+            }
+            function bind() {
+                var message = {
+                    'methodName': 'sendMessage',
+                    'arguments': 'arguments',
+                    'callback' : 'receiveMessage',
+                    'resultCode' : 'none'
+                };
+                window.webkit.messageHandlers.HybridApp.postMessage(message);
+            }
+            function addReceived(data) {
+                var elem = document.getElementById('received_data');
+                if(document.getElementById('received_data').value !="")
+                {
+                    //elem.value = new Date().toLocaleString() + " " + data + "\n" + document.getElementById('received_data').value;
+                    elem.value = document.getElementById('received_data').value;
+                } else {
+                    //elem.value = new Date().toLocaleString() + " " + data;
+                    elem.value = data;
+                }
+            }
+        </script>
+</head>
+
+<body>
+<center>MorningSDK SDK Test</center><br/>
+<hr>
+<div class="container">
+    <label class="textareaContainer">
+        <textarea id="received_data" name="received_data" rows="40" cols="10" readonly></textarea><br/>
+    </label>
+</div>
+</body>
+</html>
