@@ -7,3 +7,11 @@ As hacking techniques in mobile apps continue to evolve, cases of apps being hac
 ## Usage
 
 After including the module files of this library in Android Studio or xCode and calling the library initialization function, the hacking tool blocking feature will be activated.
+
+
+## Supported Languages
+Android : Kotlin
+iOS : Swift
+
+## Product Inquiry
+Kim Kyojun at Morningsoft kkjms2@gmail.com
