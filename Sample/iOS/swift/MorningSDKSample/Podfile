@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '12.4'
+use_frameworks!
+
+workspace 'MorningSDKSample'
+project 'MorningSDKSample.xcodeproj'
+
+target 'MorningSDKSample' do
+end

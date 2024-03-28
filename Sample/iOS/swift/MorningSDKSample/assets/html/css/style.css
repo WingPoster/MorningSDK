@@ -1,0 +1,28 @@
+body{
+    height: 960px;
+}
+
+.container {
+  width: 100%;
+  border: 1px
+  solid #000;
+}
+.textareaContainer {
+	display: block;
+	border: 1px solid #000;
+	padding: 0px;
+}
+textarea {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+}
+.btnfull {
+  width: 100%;
+}
+.urledit {
+    width: 80%;
+}
+
+
