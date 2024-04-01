@@ -1,0 +1,11 @@
+framework module MobileShield {
+  umbrella header "MobileShield.h"
+
+  export *
+  module * { export * }
+}
+
+module MobileShield.Swift {
+  header "MobileShield-Swift.h"
+  requires objc
+}

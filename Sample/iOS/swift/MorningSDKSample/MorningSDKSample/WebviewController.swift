@@ -18,7 +18,7 @@ class WebviewController: UIViewController, WKNavigationDelegate, UIPrintInteract
     var popupView : WKWebView?
     var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
     
-    var requestURL = "https://voip.morningjigsaw.com"
+    var requestURL = "https://voip.morningsoft.com"
     var mWebAppInterface :WebAppInterface?
     override func loadView() {
         super.loadView()

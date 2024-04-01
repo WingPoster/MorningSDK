@@ -1,0 +1,11 @@
+framework module ed25519swift {
+  umbrella header "ed25519swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ed25519swift.Swift {
+  header "ed25519swift-Swift.h"
+  requires objc
+}

@@ -1,0 +1,1743 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftKeychainWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeychainItemAccessibility",
+        "printedName": "KeychainItemAccessibility",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "afterFirstUnlock",
+            "printedName": "afterFirstUnlock",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftKeychainWrapper.KeychainItemAccessibility.Type) -> SwiftKeychainWrapper.KeychainItemAccessibility",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeychainItemAccessibility",
+                        "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                        "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO16afterFirstUnlockyA2CmF",
+            "mangledName": "$s20SwiftKeychainWrapper0B17ItemAccessibilityO16afterFirstUnlockyA2CmF",
+            "moduleName": "SwiftKeychainWrapper",
+            "intro_iOS": "4",
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "afterFirstUnlockThisDeviceOnly",
+            "printedName": "afterFirstUnlockThisDeviceOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftKeychainWrapper.KeychainItemAccessibility.Type) -> SwiftKeychainWrapper.KeychainItemAccessibility",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeychainItemAccessibility",
+                        "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                        "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO30afterFirstUnlockThisDeviceOnlyyA2CmF",
+            "mangledName": "$s20SwiftKeychainWrapper0B17ItemAccessibilityO30afterFirstUnlockThisDeviceOnlyyA2CmF",
+            "moduleName": "SwiftKeychainWrapper",
+            "intro_iOS": "4",
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "always",
+            "printedName": "always",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftKeychainWrapper.KeychainItemAccessibility.Type) -> SwiftKeychainWrapper.KeychainItemAccessibility",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeychainItemAccessibility",
+                        "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                        "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO6alwaysyA2CmF",
+            "mangledName": "$s20SwiftKeychainWrapper0B17ItemAccessibilityO6alwaysyA2CmF",
+            "moduleName": "SwiftKeychainWrapper",
+            "intro_iOS": "4",
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "whenPasscodeSetThisDeviceOnly",
+            "printedName": "whenPasscodeSetThisDeviceOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftKeychainWrapper.KeychainItemAccessibility.Type) -> SwiftKeychainWrapper.KeychainItemAccessibility",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeychainItemAccessibility",
+                        "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                        "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO29whenPasscodeSetThisDeviceOnlyyA2CmF",
+            "mangledName": "$s20SwiftKeychainWrapper0B17ItemAccessibilityO29whenPasscodeSetThisDeviceOnlyyA2CmF",
+            "moduleName": "SwiftKeychainWrapper",
+            "intro_iOS": "8",
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "alwaysThisDeviceOnly",
+            "printedName": "alwaysThisDeviceOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftKeychainWrapper.KeychainItemAccessibility.Type) -> SwiftKeychainWrapper.KeychainItemAccessibility",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeychainItemAccessibility",
+                        "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                        "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO20alwaysThisDeviceOnlyyA2CmF",
+            "mangledName": "$s20SwiftKeychainWrapper0B17ItemAccessibilityO20alwaysThisDeviceOnlyyA2CmF",
+            "moduleName": "SwiftKeychainWrapper",
+            "intro_iOS": "4",
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "whenUnlocked",
+            "printedName": "whenUnlocked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftKeychainWrapper.KeychainItemAccessibility.Type) -> SwiftKeychainWrapper.KeychainItemAccessibility",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeychainItemAccessibility",
+                        "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                        "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO12whenUnlockedyA2CmF",
+            "mangledName": "$s20SwiftKeychainWrapper0B17ItemAccessibilityO12whenUnlockedyA2CmF",
+            "moduleName": "SwiftKeychainWrapper",
+            "intro_iOS": "4",
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "whenUnlockedThisDeviceOnly",
+            "printedName": "whenUnlockedThisDeviceOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftKeychainWrapper.KeychainItemAccessibility.Type) -> SwiftKeychainWrapper.KeychainItemAccessibility",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeychainItemAccessibility",
+                        "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                        "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO26whenUnlockedThisDeviceOnlyyA2CmF",
+            "mangledName": "$s20SwiftKeychainWrapper0B17ItemAccessibilityO26whenUnlockedThisDeviceOnlyyA2CmF",
+            "moduleName": "SwiftKeychainWrapper",
+            "intro_iOS": "4",
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainItemAccessibility",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainItemAccessibility",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20SwiftKeychainWrapper0B17ItemAccessibilityO2eeoiySbAC_ACtFZ",
+            "moduleName": "SwiftKeychainWrapper",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO9hashValueSivp",
+            "mangledName": "$s20SwiftKeychainWrapper0B17ItemAccessibilityO9hashValueSivp",
+            "moduleName": "SwiftKeychainWrapper",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO9hashValueSivg",
+                "mangledName": "$s20SwiftKeychainWrapper0B17ItemAccessibilityO9hashValueSivg",
+                "moduleName": "SwiftKeychainWrapper",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s20SwiftKeychainWrapper0B17ItemAccessibilityO4hash4intoys6HasherVz_tF",
+            "moduleName": "SwiftKeychainWrapper",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO",
+        "mangledName": "$s20SwiftKeychainWrapper0B17ItemAccessibilityO",
+        "moduleName": "SwiftKeychainWrapper",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftKeychainWrapper",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeychainWrapper",
+        "printedName": "KeychainWrapper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "defaultKeychainWrapper",
+            "printedName": "defaultKeychainWrapper",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainWrapper",
+                "printedName": "SwiftKeychainWrapper.KeychainWrapper",
+                "usr": "s:20SwiftKeychainWrapper0bC0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SwiftKeychainWrapper0bC0C07defaultbC0ACvpZ",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C07defaultbC0ACvpZ",
+            "moduleName": "SwiftKeychainWrapper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainWrapper",
+                    "printedName": "SwiftKeychainWrapper.KeychainWrapper",
+                    "usr": "s:20SwiftKeychainWrapper0bC0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SwiftKeychainWrapper0bC0C07defaultbC0ACvgZ",
+                "mangledName": "$s20SwiftKeychainWrapper0bC0C07defaultbC0ACvgZ",
+                "moduleName": "SwiftKeychainWrapper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "standard",
+            "printedName": "standard",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainWrapper",
+                "printedName": "SwiftKeychainWrapper.KeychainWrapper",
+                "usr": "s:20SwiftKeychainWrapper0bC0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SwiftKeychainWrapper0bC0C8standardACvpZ",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C8standardACvpZ",
+            "moduleName": "SwiftKeychainWrapper",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainWrapper",
+                    "printedName": "SwiftKeychainWrapper.KeychainWrapper",
+                    "usr": "s:20SwiftKeychainWrapper0bC0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SwiftKeychainWrapper0bC0C8standardACvgZ",
+                "mangledName": "$s20SwiftKeychainWrapper0bC0C8standardACvgZ",
+                "moduleName": "SwiftKeychainWrapper",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serviceName",
+            "printedName": "serviceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SwiftKeychainWrapper0bC0C11serviceNameSSvp",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C11serviceNameSSvp",
+            "moduleName": "SwiftKeychainWrapper",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SwiftKeychainWrapper0bC0C11serviceNameSSvg",
+                "mangledName": "$s20SwiftKeychainWrapper0bC0C11serviceNameSSvg",
+                "moduleName": "SwiftKeychainWrapper",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accessGroup",
+            "printedName": "accessGroup",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20SwiftKeychainWrapper0bC0C11accessGroupSSSgvp",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C11accessGroupSSSgvp",
+            "moduleName": "SwiftKeychainWrapper",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20SwiftKeychainWrapper0bC0C11accessGroupSSSgvg",
+                "mangledName": "$s20SwiftKeychainWrapper0bC0C11accessGroupSSSgvg",
+                "moduleName": "SwiftKeychainWrapper",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(serviceName:accessGroup:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainWrapper",
+                "printedName": "SwiftKeychainWrapper.KeychainWrapper",
+                "usr": "s:20SwiftKeychainWrapper0bC0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20SwiftKeychainWrapper0bC0C11serviceName11accessGroupACSS_SSSgtcfc",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C11serviceName11accessGroupACSS_SSSgtcfc",
+            "moduleName": "SwiftKeychainWrapper",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "hasValue",
+            "printedName": "hasValue(forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C8hasValue6forKey17withAccessibilitySbSS_AA0b4ItemI0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C8hasValue6forKey17withAccessibilitySbSS_AA0b4ItemI0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "accessibilityOfKey",
+            "printedName": "accessibilityOfKey(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C18accessibilityOfKeyyAA0B17ItemAccessibilityOSgSSF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C18accessibilityOfKeyyAA0B17ItemAccessibilityOSgSSF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allKeys",
+            "printedName": "allKeys()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C7allKeysShySSGyF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C7allKeysShySSGyF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "integer",
+            "printedName": "integer(forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C7integer6forKey17withAccessibilitySiSgSS_AA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C7integer6forKey17withAccessibilitySiSgSS_AA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "float",
+            "printedName": "float(forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C5float6forKey17withAccessibilitySfSgSS_AA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C5float6forKey17withAccessibilitySfSgSS_AA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "double",
+            "printedName": "double(forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C6double6forKey17withAccessibilitySdSgSS_AA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C6double6forKey17withAccessibilitySdSgSS_AA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bool",
+            "printedName": "bool(forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C4bool6forKey17withAccessibilitySbSgSS_AA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C4bool6forKey17withAccessibilitySbSgSS_AA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "string",
+            "printedName": "string(forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C6string6forKey17withAccessibilitySSSgSS_AA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C6string6forKey17withAccessibilitySSSgSS_AA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "object",
+            "printedName": "object(forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSCoding?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSCoding",
+                    "printedName": "Foundation.NSCoding",
+                    "usr": "c:objc(pl)NSCoding"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C6object6forKey17withAccessibilitySo8NSCoding_pSgSS_AA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C6object6forKey17withAccessibilitySo8NSCoding_pSgSS_AA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "data",
+            "printedName": "data(forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C4data6forKey17withAccessibility10Foundation4DataVSgSS_AA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C4data6forKey17withAccessibility10Foundation4DataVSgSS_AA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dataRef",
+            "printedName": "dataRef(forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C7dataRef6forKey17withAccessibility10Foundation4DataVSgSS_AA0b4ItemI0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C7dataRef6forKey17withAccessibility10Foundation4DataVSgSS_AA0b4ItemI0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(_:forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilitySbSi_SSAA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilitySbSi_SSAA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(_:forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilitySbSf_SSAA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilitySbSf_SSAA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(_:forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilitySbSd_SSAA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilitySbSd_SSAA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(_:forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilityS2b_SSAA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilityS2b_SSAA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(_:forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilitySbSS_SSAA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilitySbSS_SSAA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(_:forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoding",
+                "printedName": "Foundation.NSCoding",
+                "usr": "c:objc(pl)NSCoding"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilitySbSo8NSCoding_p_SSAA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilitySbSo8NSCoding_p_SSAA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(_:forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilitySb10Foundation4DataV_SSAA0b4ItemH0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C3set_6forKey17withAccessibilitySb10Foundation4DataV_SSAA0b4ItemH0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(key:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C6remove3key17withAccessibilitySbSS_AA0b4ItemG0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C6remove3key17withAccessibilitySbSS_AA0b4ItemG0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeObject",
+            "printedName": "removeObject(forKey:withAccessibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainItemAccessibility",
+                    "printedName": "SwiftKeychainWrapper.KeychainItemAccessibility",
+                    "usr": "s:20SwiftKeychainWrapper0B17ItemAccessibilityO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C12removeObject6forKey17withAccessibilitySbSS_AA0b4ItemI0OSgtF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C12removeObject6forKey17withAccessibilitySbSS_AA0b4ItemI0OSgtF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAllKeys",
+            "printedName": "removeAllKeys()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C13removeAllKeysSbyF",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C13removeAllKeysSbyF",
+            "moduleName": "SwiftKeychainWrapper",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "wipeKeychain",
+            "printedName": "wipeKeychain()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20SwiftKeychainWrapper0bC0C04wipeB0yyFZ",
+            "mangledName": "$s20SwiftKeychainWrapper0bC0C04wipeB0yyFZ",
+            "moduleName": "SwiftKeychainWrapper",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20SwiftKeychainWrapper0bC0C",
+        "mangledName": "$s20SwiftKeychainWrapper0bC0C",
+        "moduleName": "SwiftKeychainWrapper",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/Pods\/SwiftKeychainWrapper\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 3250,
+      "length": 22,
+      "value": "\"SwiftKeychainWrapper\""
+    }
+  ]
+}

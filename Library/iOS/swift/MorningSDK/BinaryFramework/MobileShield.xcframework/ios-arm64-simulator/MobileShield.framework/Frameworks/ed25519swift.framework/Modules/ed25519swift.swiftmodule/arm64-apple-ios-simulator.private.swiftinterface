@@ -1,0 +1,19 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target arm64-apple-ios8.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ed25519swift
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CryptoSwift
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+@_exported import ed25519swift
+public struct Ed25519 {
+  public static func generateKeyPair() -> (publicKey: [Swift.UInt8], secretKey: [Swift.UInt8])
+  public static func calcPublicKey(secretKey: [Swift.UInt8]) -> [Swift.UInt8]
+  public static func isValidKeyPair(publicKey: [Swift.UInt8], secretKey: [Swift.UInt8]) -> Swift.Bool
+  public static func sign(message: [Swift.UInt8], secretKey: [Swift.UInt8]) -> [Swift.UInt8]
+}
+extension ed25519swift.Ed25519 {
+  public static func verify(signature: [Swift.UInt8], message: [Swift.UInt8], publicKey: [Swift.UInt8]) -> Swift.Bool
+}

@@ -1,0 +1,4617 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RSAUtils",
+        "printedName": "RSAUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "encryptWithRSAKey",
+            "printedName": "encryptWithRSAKey(_:rsaKeyRef:padding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecPadding",
+                "printedName": "Security.SecPadding",
+                "usr": "c:@E@SecPadding"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield8RSAUtilsC17encryptWithRSAKey_9rsaKeyRef7padding10Foundation4DataVSgAI_So03SechI0aSo0M7PaddingVtFZ",
+            "mangledName": "$s12MobileShield8RSAUtilsC17encryptWithRSAKey_9rsaKeyRef7padding10Foundation4DataVSgAI_So03SechI0aSo0M7PaddingVtFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decryptWithRSAKey",
+            "printedName": "decryptWithRSAKey(_:rsaKeyRef:padding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecKey",
+                "printedName": "Security.SecKey",
+                "usr": "c:@T@SecKeyRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecPadding",
+                "printedName": "Security.SecPadding",
+                "usr": "c:@E@SecPadding"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield8RSAUtilsC17decryptWithRSAKey_9rsaKeyRef7padding10Foundation4DataVSgAI_So03SechI0aSo0M7PaddingVtFZ",
+            "mangledName": "$s12MobileShield8RSAUtilsC17decryptWithRSAKey_9rsaKeyRef7padding10Foundation4DataVSgAI_So03SechI0aSo0M7PaddingVtFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteRSAKeyFromKeychain",
+            "printedName": "deleteRSAKeyFromKeychain(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield8RSAUtilsC24deleteRSAKeyFromKeychainyySSFZ",
+            "mangledName": "$s12MobileShield8RSAUtilsC24deleteRSAKeyFromKeychainyySSFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRSAKeyFromKeychain",
+            "printedName": "getRSAKeyFromKeychain(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield8RSAUtilsC21getRSAKeyFromKeychainySo9SecKeyRefaSgSSFZ",
+            "mangledName": "$s12MobileShield8RSAUtilsC21getRSAKeyFromKeychainySo9SecKeyRefaSgSSFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addRSAPrivateKey",
+            "printedName": "addRSAPrivateKey(_:tagName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield8RSAUtilsC16addRSAPrivateKey_7tagNameSo03SecF3RefaSgSS_SStFZ",
+            "mangledName": "$s12MobileShield8RSAUtilsC16addRSAPrivateKey_7tagNameSo03SecF3RefaSgSS_SStFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addRSAPublicKey",
+            "printedName": "addRSAPublicKey(_:tagName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecKey",
+                    "printedName": "Security.SecKey",
+                    "usr": "c:@T@SecKeyRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield8RSAUtilsC15addRSAPublicKey_7tagNameSo03SecF3RefaSgSS_SStFZ",
+            "mangledName": "$s12MobileShield8RSAUtilsC15addRSAPublicKey_7tagNameSo03SecF3RefaSgSS_SStFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encryptWithRSAPrivateKey",
+            "printedName": "encryptWithRSAPrivateKey(_:privkeyBase64:keychainTag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield8RSAUtilsC24encryptWithRSAPrivateKey_13privkeyBase6411keychainTag10Foundation4DataVSgAI_S2StFZ",
+            "mangledName": "$s12MobileShield8RSAUtilsC24encryptWithRSAPrivateKey_13privkeyBase6411keychainTag10Foundation4DataVSgAI_S2StFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encryptWithRSAPublicKey",
+            "printedName": "encryptWithRSAPublicKey(_:pubkeyBase64:keychainTag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield8RSAUtilsC23encryptWithRSAPublicKey_12pubkeyBase6411keychainTag10Foundation4DataVSgAI_S2StFZ",
+            "mangledName": "$s12MobileShield8RSAUtilsC23encryptWithRSAPublicKey_12pubkeyBase6411keychainTag10Foundation4DataVSgAI_S2StFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decryptWithRSAPrivateKey",
+            "printedName": "decryptWithRSAPrivateKey(_:privkeyBase64:keychainTag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield8RSAUtilsC24decryptWithRSAPrivateKey_13privkeyBase6411keychainTag10Foundation4DataVSgAI_S2StFZ",
+            "mangledName": "$s12MobileShield8RSAUtilsC24decryptWithRSAPrivateKey_13privkeyBase6411keychainTag10Foundation4DataVSgAI_S2StFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decryptWithRSAPublicKey",
+            "printedName": "decryptWithRSAPublicKey(_:pubkeyBase64:keychainTag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield8RSAUtilsC23decryptWithRSAPublicKey_12pubkeyBase6411keychainTag10Foundation4DataVSgAI_S2StFZ",
+            "mangledName": "$s12MobileShield8RSAUtilsC23decryptWithRSAPublicKey_12pubkeyBase6411keychainTag10Foundation4DataVSgAI_S2StFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RSAUtils",
+                "printedName": "MobileShield.RSAUtils",
+                "usr": "c:@M@MobileShield@objc(cs)RSAUtils"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MobileShield@objc(cs)RSAUtils(im)init",
+            "mangledName": "$s12MobileShield8RSAUtilsCACycfc",
+            "moduleName": "MobileShield",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MobileShield@objc(cs)RSAUtils",
+        "mangledName": "$s12MobileShield8RSAUtilsC",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoSwift",
+        "printedName": "CryptoSwift",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftKeychainWrapper",
+        "printedName": "SwiftKeychainWrapper",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftyRSA",
+        "printedName": "SwiftyRSA",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "ed25519swift",
+        "printedName": "ed25519swift",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MobileShield",
+        "printedName": "MobileShield",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "Jailbroken",
+            "printedName": "Jailbroken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC10JailbrokenSbyFZ",
+            "mangledName": "$s12MobileShieldAAC10JailbrokenSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "RunInEmulator",
+            "printedName": "RunInEmulator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC13RunInEmulatorSbyFZ",
+            "mangledName": "$s12MobileShieldAAC13RunInEmulatorSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "Debugged",
+            "printedName": "Debugged()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC8DebuggedSbyFZ",
+            "mangledName": "$s12MobileShieldAAC8DebuggedSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "Tampered",
+            "printedName": "Tampered(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(result: Swift.Bool, hitChecks: [MobileShield.FileIntegrityCheck])",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MobileShield.FileIntegrityCheck]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "MobileShield.FileIntegrityCheck",
+                        "usr": "s:12MobileShield18FileIntegrityCheckO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MobileShield.FileIntegrityCheck]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileIntegrityCheck",
+                    "printedName": "MobileShield.FileIntegrityCheck",
+                    "usr": "s:12MobileShield18FileIntegrityCheckO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC8TamperedySb6result_SayAA18FileIntegrityCheckOG9hitCheckstAGFZ",
+            "mangledName": "$s12MobileShieldAAC8TamperedySb6result_SayAA18FileIntegrityCheckOG9hitCheckstAGFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ReverseEngineered",
+            "printedName": "ReverseEngineered()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC17ReverseEngineeredSbyFZ",
+            "mangledName": "$s12MobileShieldAAC17ReverseEngineeredSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "RuntimeHooked",
+            "printedName": "RuntimeHooked(dyldWhiteList:detectionClass:selector:isClassMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC13RuntimeHooked13dyldWhiteList14detectionClass8selector02isI6MethodSbSaySSG_yXlXp10ObjectiveC8SelectorVSbtFZ",
+            "mangledName": "$s12MobileShieldAAC13RuntimeHooked13dyldWhiteList14detectionClass8selector02isI6MethodSbSaySSG_yXlXp10ObjectiveC8SelectorVSbtFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "Proxied",
+            "printedName": "Proxied()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC7ProxiedSbyFZ",
+            "mangledName": "$s12MobileShieldAAC7ProxiedSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMachOFileHashValue",
+            "printedName": "getMachOFileHashValue(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntegrityCheckerImageTarget",
+                "printedName": "MobileShield.IntegrityCheckerImageTarget",
+                "hasDefaultArg": true,
+                "usr": "s:12MobileShield27IntegrityCheckerImageTargetO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC21getMachOFileHashValueySSSgAA27IntegrityCheckerImageTargetOFZ",
+            "mangledName": "$s12MobileShieldAAC21getMachOFileHashValueySSSgAA27IntegrityCheckerImageTargetOFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findLoadedDylibs",
+            "printedName": "findLoadedDylibs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntegrityCheckerImageTarget",
+                "printedName": "MobileShield.IntegrityCheckerImageTarget",
+                "hasDefaultArg": true,
+                "usr": "s:12MobileShield27IntegrityCheckerImageTargetO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC16findLoadedDylibsySaySSGSgAA27IntegrityCheckerImageTargetOFZ",
+            "mangledName": "$s12MobileShieldAAC16findLoadedDylibsySaySSGSgAA27IntegrityCheckerImageTargetOFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "BreakpointAt",
+            "printedName": "BreakpointAt(_:functionSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeRawPointer",
+                "printedName": "Swift.UnsafeRawPointer",
+                "usr": "s:SV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC12BreakpointAt_12functionSizeSbSV_SuSgtFZ",
+            "mangledName": "$s12MobileShieldAAC12BreakpointAt_12functionSizeSbSV_SuSgtFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initRSA2048String",
+            "printedName": "initRSA2048String()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC17initRSA2048StringyyFZ",
+            "mangledName": "$s12MobileShieldAAC17initRSA2048StringyyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encryptRSA2048String",
+            "printedName": "encryptRSA2048String(plainText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC20encryptRSA2048String9plainTextS2S_tFZ",
+            "mangledName": "$s12MobileShieldAAC20encryptRSA2048String9plainTextS2S_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decryptRSA2048String",
+            "printedName": "decryptRSA2048String(cipherText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC20decryptRSA2048String10cipherTextS2S_tFZ",
+            "mangledName": "$s12MobileShieldAAC20decryptRSA2048String10cipherTextS2S_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testRSA2048String",
+            "printedName": "testRSA2048String()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC17testRSA2048StringyyFZ",
+            "mangledName": "$s12MobileShieldAAC17testRSA2048StringyyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initECC25519KeyPair",
+            "printedName": "initECC25519KeyPair()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC19initECC25519KeyPairyyFZ",
+            "mangledName": "$s12MobileShieldAAC19initECC25519KeyPairyyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getECC25519PublicKeyWithBase64",
+            "printedName": "getECC25519PublicKeyWithBase64()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC30getECC25519PublicKeyWithBase64SSyFZ",
+            "mangledName": "$s12MobileShieldAAC30getECC25519PublicKeyWithBase64SSyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getECC25519PrivateKeyWithBase64",
+            "printedName": "getECC25519PrivateKeyWithBase64()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC31getECC25519PrivateKeyWithBase64SSyFZ",
+            "mangledName": "$s12MobileShieldAAC31getECC25519PrivateKeyWithBase64SSyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signECC25519WithBase64",
+            "printedName": "signECC25519WithBase64(message:privateKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC22signECC25519WithBase647message10privateKeyS2S_SStFZ",
+            "mangledName": "$s12MobileShieldAAC22signECC25519WithBase647message10privateKeyS2S_SStFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verifyECC25519WithBase64",
+            "printedName": "verifyECC25519WithBase64(message:signature:publicKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC24verifyECC25519WithBase647message9signature9publicKeySbSS_S2StFZ",
+            "mangledName": "$s12MobileShieldAAC24verifyECC25519WithBase647message9signature9publicKeySbSS_S2StFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testECC25519",
+            "printedName": "testECC25519()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC12testECC25519yyFZ",
+            "mangledName": "$s12MobileShieldAAC12testECC25519yyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decryptAES256WithString",
+            "printedName": "decryptAES256WithString(cipherText:secretKey:salt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC23decryptAES256WithString10cipherText9secretKey4saltSSSgSS_S2StFZ",
+            "mangledName": "$s12MobileShieldAAC23decryptAES256WithString10cipherText9secretKey4saltSSSgSS_S2StFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decryptAES256WithStringCore",
+            "printedName": "decryptAES256WithStringCore(cipherText:secretKey:salt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC27decryptAES256WithStringCore10cipherText9secretKey4saltSSSgSS_S2StFZ",
+            "mangledName": "$s12MobileShieldAAC27decryptAES256WithStringCore10cipherText9secretKey4saltSSSgSS_S2StFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initAES256String",
+            "printedName": "initAES256String()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC16initAES256StringyyFZ",
+            "mangledName": "$s12MobileShieldAAC16initAES256StringyyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encryptAES256String",
+            "printedName": "encryptAES256String(plainText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC19encryptAES256String9plainTextS2S_tFZ",
+            "mangledName": "$s12MobileShieldAAC19encryptAES256String9plainTextS2S_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decryptAES256String",
+            "printedName": "decryptAES256String(cipherText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC19decryptAES256String10cipherTextS2S_tFZ",
+            "mangledName": "$s12MobileShieldAAC19decryptAES256String10cipherTextS2S_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testAES256String",
+            "printedName": "testAES256String()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC16testAES256StringyyFZ",
+            "mangledName": "$s12MobileShieldAAC16testAES256StringyyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "computeSHA256String",
+            "printedName": "computeSHA256String(plainText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC19computeSHA256String9plainTextS2S_tFZ",
+            "mangledName": "$s12MobileShieldAAC19computeSHA256String9plainTextS2S_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testSHA256String",
+            "printedName": "testSHA256String()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC16testSHA256StringyyFZ",
+            "mangledName": "$s12MobileShieldAAC16testSHA256StringyyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writeString",
+            "printedName": "writeString(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC11writeString3key5valueySSSg_AFtFZ",
+            "mangledName": "$s12MobileShieldAAC11writeString3key5valueySSSg_AFtFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readString",
+            "printedName": "readString(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC10readString3keySSSgSS_tFZ",
+            "mangledName": "$s12MobileShieldAAC10readString3keySSSgSS_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writeInteger",
+            "printedName": "writeInteger(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC12writeInteger3key5valueySSSg_SiSgtFZ",
+            "mangledName": "$s12MobileShieldAAC12writeInteger3key5valueySSSg_SiSgtFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readInteger",
+            "printedName": "readInteger(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC11readInteger3keySiSS_tFZ",
+            "mangledName": "$s12MobileShieldAAC11readInteger3keySiSS_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writeBool",
+            "printedName": "writeBool(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC9writeBool3key5valueySSSg_SbSgtFZ",
+            "mangledName": "$s12MobileShieldAAC9writeBool3key5valueySSSg_SbSgtFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readBool",
+            "printedName": "readBool(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC8readBool3keySbSS_tFZ",
+            "mangledName": "$s12MobileShieldAAC8readBool3keySbSS_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testEncryption",
+            "printedName": "testEncryption()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC14testEncryptionyyFZ",
+            "mangledName": "$s12MobileShieldAAC14testEncryptionyyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isScreenProtectEnabled",
+            "printedName": "isScreenProtectEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC22isScreenProtectEnabledSbyFZ",
+            "mangledName": "$s12MobileShieldAAC22isScreenProtectEnabledSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isJailbrokenEnabled",
+            "printedName": "isJailbrokenEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC19isJailbrokenEnabledSbyFZ",
+            "mangledName": "$s12MobileShieldAAC19isJailbrokenEnabledSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isRunInEmulatorEnabled",
+            "printedName": "isRunInEmulatorEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC22isRunInEmulatorEnabledSbyFZ",
+            "mangledName": "$s12MobileShieldAAC22isRunInEmulatorEnabledSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isDebuggedEnabled",
+            "printedName": "isDebuggedEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC17isDebuggedEnabledSbyFZ",
+            "mangledName": "$s12MobileShieldAAC17isDebuggedEnabledSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isTamperedEnabled",
+            "printedName": "isTamperedEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC17isTamperedEnabledSbyFZ",
+            "mangledName": "$s12MobileShieldAAC17isTamperedEnabledSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isReverseEngineeredEnabled",
+            "printedName": "isReverseEngineeredEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC26isReverseEngineeredEnabledSbyFZ",
+            "mangledName": "$s12MobileShieldAAC26isReverseEngineeredEnabledSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isRuntimeHookedEnabled",
+            "printedName": "isRuntimeHookedEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC22isRuntimeHookedEnabledSbyFZ",
+            "mangledName": "$s12MobileShieldAAC22isRuntimeHookedEnabledSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isProxiedEnabled",
+            "printedName": "isProxiedEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC16isProxiedEnabledSbyFZ",
+            "mangledName": "$s12MobileShieldAAC16isProxiedEnabledSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isBreakpointAtEnabled",
+            "printedName": "isBreakpointAtEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC21isBreakpointAtEnabledSbyFZ",
+            "mangledName": "$s12MobileShieldAAC21isBreakpointAtEnabledSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isStringObfuscationEnabled",
+            "printedName": "isStringObfuscationEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC26isStringObfuscationEnabledSbyFZ",
+            "mangledName": "$s12MobileShieldAAC26isStringObfuscationEnabledSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setScreenProtectEnable",
+            "printedName": "setScreenProtectEnable(enable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC22setScreenProtectEnable6enableySbSg_tFZ",
+            "mangledName": "$s12MobileShieldAAC22setScreenProtectEnable6enableySbSg_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setJailbrokenEnable",
+            "printedName": "setJailbrokenEnable(enable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC19setJailbrokenEnable6enableySbSg_tFZ",
+            "mangledName": "$s12MobileShieldAAC19setJailbrokenEnable6enableySbSg_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRunInEmulatorEnable",
+            "printedName": "setRunInEmulatorEnable(enable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC22setRunInEmulatorEnable6enableySbSg_tFZ",
+            "mangledName": "$s12MobileShieldAAC22setRunInEmulatorEnable6enableySbSg_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDebuggedEnable",
+            "printedName": "setDebuggedEnable(enable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC17setDebuggedEnable6enableySbSg_tFZ",
+            "mangledName": "$s12MobileShieldAAC17setDebuggedEnable6enableySbSg_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTamperedEnable",
+            "printedName": "setTamperedEnable(enable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC17setTamperedEnable6enableySbSg_tFZ",
+            "mangledName": "$s12MobileShieldAAC17setTamperedEnable6enableySbSg_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setReverseEngineeredEnable",
+            "printedName": "setReverseEngineeredEnable(enable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC26setReverseEngineeredEnable6enableySbSg_tFZ",
+            "mangledName": "$s12MobileShieldAAC26setReverseEngineeredEnable6enableySbSg_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRuntimeHookedEnable",
+            "printedName": "setRuntimeHookedEnable(enable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC22setRuntimeHookedEnable6enableySbSg_tFZ",
+            "mangledName": "$s12MobileShieldAAC22setRuntimeHookedEnable6enableySbSg_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setProxiedEnable",
+            "printedName": "setProxiedEnable(enable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC16setProxiedEnable6enableySbSg_tFZ",
+            "mangledName": "$s12MobileShieldAAC16setProxiedEnable6enableySbSg_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBreakpointAtEnable",
+            "printedName": "setBreakpointAtEnable(enable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC21setBreakpointAtEnable6enableySbSg_tFZ",
+            "mangledName": "$s12MobileShieldAAC21setBreakpointAtEnable6enableySbSg_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setStringObfuscationEnable",
+            "printedName": "setStringObfuscationEnable(enable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC26setStringObfuscationEnable6enableySbSg_tFZ",
+            "mangledName": "$s12MobileShieldAAC26setStringObfuscationEnable6enableySbSg_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setObfuscation",
+            "printedName": "setObfuscation(obfuscationData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC14setObfuscation15obfuscationDataySS_tFZ",
+            "mangledName": "$s12MobileShieldAAC14setObfuscation15obfuscationDataySS_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getObfuscation",
+            "printedName": "getObfuscation(symbol:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC14getObfuscation6symbolSSSgSS_tFZ",
+            "mangledName": "$s12MobileShieldAAC14getObfuscation6symbolSSSgSS_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLicense",
+            "printedName": "setLicense(licenseData:configData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC10setLicense11licenseData06configF0ySS_SStFZ",
+            "mangledName": "$s12MobileShieldAAC10setLicense11licenseData06configF0ySS_SStFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "runScan",
+            "printedName": "runScan()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC7runScanyyFZ",
+            "mangledName": "$s12MobileShieldAAC7runScanyyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAppID",
+            "printedName": "getAppID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC8getAppIDSSyFZ",
+            "mangledName": "$s12MobileShieldAAC8getAppIDSSyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAUUID",
+            "printedName": "getAUUID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC8getAUUIDSSyFZ",
+            "mangledName": "$s12MobileShieldAAC8getAUUIDSSyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isInit",
+            "printedName": "isInit()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC6isInitSbyFZ",
+            "mangledName": "$s12MobileShieldAAC6isInitSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processExit",
+            "printedName": "processExit()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC11processExityyFZ",
+            "mangledName": "$s12MobileShieldAAC11processExityyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testMobileShield",
+            "printedName": "testMobileShield()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShieldAAC04testaB0SSyFZ",
+            "mangledName": "$s12MobileShieldAAC04testaB0SSyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12MobileShieldAAC",
+        "mangledName": "$s12MobileShieldAAC",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogUtil",
+        "printedName": "LogUtil",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "LEVEL_NONE",
+            "printedName": "LEVEL_NONE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MobileShield7LogUtilC10LEVEL_NONESivpZ",
+            "mangledName": "$s12MobileShield7LogUtilC10LEVEL_NONESivpZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield7LogUtilC10LEVEL_NONESivgZ",
+                "mangledName": "$s12MobileShield7LogUtilC10LEVEL_NONESivgZ",
+                "moduleName": "MobileShield",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "LEVEL_ERROR",
+            "printedName": "LEVEL_ERROR",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MobileShield7LogUtilC11LEVEL_ERRORSivpZ",
+            "mangledName": "$s12MobileShield7LogUtilC11LEVEL_ERRORSivpZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield7LogUtilC11LEVEL_ERRORSivgZ",
+                "mangledName": "$s12MobileShield7LogUtilC11LEVEL_ERRORSivgZ",
+                "moduleName": "MobileShield",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "LEVEL_WARN",
+            "printedName": "LEVEL_WARN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MobileShield7LogUtilC10LEVEL_WARNSivpZ",
+            "mangledName": "$s12MobileShield7LogUtilC10LEVEL_WARNSivpZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield7LogUtilC10LEVEL_WARNSivgZ",
+                "mangledName": "$s12MobileShield7LogUtilC10LEVEL_WARNSivgZ",
+                "moduleName": "MobileShield",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "LEVEL_INFO",
+            "printedName": "LEVEL_INFO",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MobileShield7LogUtilC10LEVEL_INFOSivpZ",
+            "mangledName": "$s12MobileShield7LogUtilC10LEVEL_INFOSivpZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield7LogUtilC10LEVEL_INFOSivgZ",
+                "mangledName": "$s12MobileShield7LogUtilC10LEVEL_INFOSivgZ",
+                "moduleName": "MobileShield",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "LEVEL_DEBUG",
+            "printedName": "LEVEL_DEBUG",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MobileShield7LogUtilC11LEVEL_DEBUGSivpZ",
+            "mangledName": "$s12MobileShield7LogUtilC11LEVEL_DEBUGSivpZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield7LogUtilC11LEVEL_DEBUGSivgZ",
+                "mangledName": "$s12MobileShield7LogUtilC11LEVEL_DEBUGSivgZ",
+                "moduleName": "MobileShield",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mLogLevel",
+            "printedName": "mLogLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MobileShield7LogUtilC01mC5LevelSivpZ",
+            "mangledName": "$s12MobileShield7LogUtilC01mC5LevelSivpZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield7LogUtilC01mC5LevelSivgZ",
+                "mangledName": "$s12MobileShield7LogUtilC01mC5LevelSivgZ",
+                "moduleName": "MobileShield",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield7LogUtilC01mC5LevelSivsZ",
+                "mangledName": "$s12MobileShield7LogUtilC01mC5LevelSivsZ",
+                "moduleName": "MobileShield",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield7LogUtilC01mC5LevelSivMZ",
+                "mangledName": "$s12MobileShield7LogUtilC01mC5LevelSivMZ",
+                "moduleName": "MobileShield",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mRemoteLogging",
+            "printedName": "mRemoteLogging",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MobileShield7LogUtilC14mRemoteLoggingSbvpZ",
+            "mangledName": "$s12MobileShield7LogUtilC14mRemoteLoggingSbvpZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield7LogUtilC14mRemoteLoggingSbvgZ",
+                "mangledName": "$s12MobileShield7LogUtilC14mRemoteLoggingSbvgZ",
+                "moduleName": "MobileShield",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield7LogUtilC14mRemoteLoggingSbvsZ",
+                "mangledName": "$s12MobileShield7LogUtilC14mRemoteLoggingSbvsZ",
+                "moduleName": "MobileShield",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield7LogUtilC14mRemoteLoggingSbvMZ",
+                "mangledName": "$s12MobileShield7LogUtilC14mRemoteLoggingSbvMZ",
+                "moduleName": "MobileShield",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "addLog",
+            "printedName": "addLog(level:tag:log:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield7LogUtilC03addC05level3tag3logySi_S2StFZ",
+            "mangledName": "$s12MobileShield7LogUtilC03addC05level3tag3logySi_S2StFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLogLevel",
+            "printedName": "setLogLevel(logLevel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield7LogUtilC03setC5Level03logF0ySi_tFZ",
+            "mangledName": "$s12MobileShield7LogUtilC03setC5Level03logF0ySi_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRemoteLogging",
+            "printedName": "setRemoteLogging(on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield7LogUtilC16setRemoteLogging2onySb_tFZ",
+            "mangledName": "$s12MobileShield7LogUtilC16setRemoteLogging2onySb_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isRemoteLogging",
+            "printedName": "isRemoteLogging()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield7LogUtilC15isRemoteLoggingSbyFZ",
+            "mangledName": "$s12MobileShield7LogUtilC15isRemoteLoggingSbyFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendLog",
+            "printedName": "sendLog(log:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield7LogUtilC04sendC03logySS_tFZ",
+            "mangledName": "$s12MobileShield7LogUtilC04sendC03logySS_tFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MobileShield@objc(cs)LogUtil",
+        "mangledName": "$s12MobileShield7LogUtilC",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FileIntegrityCheck",
+        "printedName": "FileIntegrityCheck",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundleID",
+            "printedName": "bundleID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileShield.FileIntegrityCheck.Type) -> (Swift.String) -> MobileShield.FileIntegrityCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> MobileShield.FileIntegrityCheck",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "MobileShield.FileIntegrityCheck",
+                        "usr": "s:12MobileShield18FileIntegrityCheckO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileShield.FileIntegrityCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "MobileShield.FileIntegrityCheck",
+                        "usr": "s:12MobileShield18FileIntegrityCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MobileShield18FileIntegrityCheckO8bundleIDyACSScACmF",
+            "mangledName": "$s12MobileShield18FileIntegrityCheckO8bundleIDyACSScACmF",
+            "moduleName": "MobileShield",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobileProvision",
+            "printedName": "mobileProvision",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileShield.FileIntegrityCheck.Type) -> (Swift.String) -> MobileShield.FileIntegrityCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> MobileShield.FileIntegrityCheck",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "MobileShield.FileIntegrityCheck",
+                        "usr": "s:12MobileShield18FileIntegrityCheckO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileShield.FileIntegrityCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "MobileShield.FileIntegrityCheck",
+                        "usr": "s:12MobileShield18FileIntegrityCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MobileShield18FileIntegrityCheckO15mobileProvisionyACSScACmF",
+            "mangledName": "$s12MobileShield18FileIntegrityCheckO15mobileProvisionyACSScACmF",
+            "moduleName": "MobileShield",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "machO",
+            "printedName": "machO",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileShield.FileIntegrityCheck.Type) -> (Swift.String, Swift.String) -> MobileShield.FileIntegrityCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> MobileShield.FileIntegrityCheck",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "MobileShield.FileIntegrityCheck",
+                        "usr": "s:12MobileShield18FileIntegrityCheckO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileShield.FileIntegrityCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "MobileShield.FileIntegrityCheck",
+                        "usr": "s:12MobileShield18FileIntegrityCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MobileShield18FileIntegrityCheckO5machOyACSS_SStcACmF",
+            "mangledName": "$s12MobileShield18FileIntegrityCheckO5machOyACSS_SStcACmF",
+            "moduleName": "MobileShield",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MobileShield18FileIntegrityCheckO11descriptionSSvp",
+            "mangledName": "$s12MobileShield18FileIntegrityCheckO11descriptionSSvp",
+            "moduleName": "MobileShield",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield18FileIntegrityCheckO11descriptionSSvg",
+                "mangledName": "$s12MobileShield18FileIntegrityCheckO11descriptionSSvg",
+                "moduleName": "MobileShield",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12MobileShield18FileIntegrityCheckO",
+        "mangledName": "$s12MobileShield18FileIntegrityCheckO",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IntegrityCheckerImageTarget",
+        "printedName": "IntegrityCheckerImageTarget",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileShield.IntegrityCheckerImageTarget.Type) -> MobileShield.IntegrityCheckerImageTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntegrityCheckerImageTarget",
+                    "printedName": "MobileShield.IntegrityCheckerImageTarget",
+                    "usr": "s:12MobileShield27IntegrityCheckerImageTargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileShield.IntegrityCheckerImageTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntegrityCheckerImageTarget",
+                        "printedName": "MobileShield.IntegrityCheckerImageTarget",
+                        "usr": "s:12MobileShield27IntegrityCheckerImageTargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MobileShield27IntegrityCheckerImageTargetO7defaultyA2CmF",
+            "mangledName": "$s12MobileShield27IntegrityCheckerImageTargetO7defaultyA2CmF",
+            "moduleName": "MobileShield",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileShield.IntegrityCheckerImageTarget.Type) -> (Swift.String) -> MobileShield.IntegrityCheckerImageTarget",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> MobileShield.IntegrityCheckerImageTarget",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntegrityCheckerImageTarget",
+                        "printedName": "MobileShield.IntegrityCheckerImageTarget",
+                        "usr": "s:12MobileShield27IntegrityCheckerImageTargetO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileShield.IntegrityCheckerImageTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntegrityCheckerImageTarget",
+                        "printedName": "MobileShield.IntegrityCheckerImageTarget",
+                        "usr": "s:12MobileShield27IntegrityCheckerImageTargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MobileShield27IntegrityCheckerImageTargetO6customyACSScACmF",
+            "mangledName": "$s12MobileShield27IntegrityCheckerImageTargetO6customyACSScACmF",
+            "moduleName": "MobileShield",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12MobileShield27IntegrityCheckerImageTargetO",
+        "mangledName": "$s12MobileShield27IntegrityCheckerImageTargetO",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JailbreakCheck",
+        "printedName": "JailbreakCheck",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "urlSchemes",
+            "printedName": "urlSchemes",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileShield.JailbreakCheck.Type) -> MobileShield.JailbreakCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JailbreakCheck",
+                    "printedName": "MobileShield.JailbreakCheck",
+                    "usr": "s:12MobileShield14JailbreakCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileShield.JailbreakCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JailbreakCheck",
+                        "printedName": "MobileShield.JailbreakCheck",
+                        "usr": "s:12MobileShield14JailbreakCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MobileShield14JailbreakCheckO10urlSchemesyA2CmF",
+            "mangledName": "$s12MobileShield14JailbreakCheckO10urlSchemesyA2CmF",
+            "moduleName": "MobileShield"
+          },
+          {
+            "kind": "Var",
+            "name": "existenceOfSuspiciousFiles",
+            "printedName": "existenceOfSuspiciousFiles",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileShield.JailbreakCheck.Type) -> MobileShield.JailbreakCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JailbreakCheck",
+                    "printedName": "MobileShield.JailbreakCheck",
+                    "usr": "s:12MobileShield14JailbreakCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileShield.JailbreakCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JailbreakCheck",
+                        "printedName": "MobileShield.JailbreakCheck",
+                        "usr": "s:12MobileShield14JailbreakCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MobileShield14JailbreakCheckO26existenceOfSuspiciousFilesyA2CmF",
+            "mangledName": "$s12MobileShield14JailbreakCheckO26existenceOfSuspiciousFilesyA2CmF",
+            "moduleName": "MobileShield"
+          },
+          {
+            "kind": "Var",
+            "name": "suspiciousFilesCanBeOpened",
+            "printedName": "suspiciousFilesCanBeOpened",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileShield.JailbreakCheck.Type) -> MobileShield.JailbreakCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JailbreakCheck",
+                    "printedName": "MobileShield.JailbreakCheck",
+                    "usr": "s:12MobileShield14JailbreakCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileShield.JailbreakCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JailbreakCheck",
+                        "printedName": "MobileShield.JailbreakCheck",
+                        "usr": "s:12MobileShield14JailbreakCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MobileShield14JailbreakCheckO26suspiciousFilesCanBeOpenedyA2CmF",
+            "mangledName": "$s12MobileShield14JailbreakCheckO26suspiciousFilesCanBeOpenedyA2CmF",
+            "moduleName": "MobileShield"
+          },
+          {
+            "kind": "Var",
+            "name": "restrictedDirectoriesWriteable",
+            "printedName": "restrictedDirectoriesWriteable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileShield.JailbreakCheck.Type) -> MobileShield.JailbreakCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JailbreakCheck",
+                    "printedName": "MobileShield.JailbreakCheck",
+                    "usr": "s:12MobileShield14JailbreakCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileShield.JailbreakCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JailbreakCheck",
+                        "printedName": "MobileShield.JailbreakCheck",
+                        "usr": "s:12MobileShield14JailbreakCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MobileShield14JailbreakCheckO30restrictedDirectoriesWriteableyA2CmF",
+            "mangledName": "$s12MobileShield14JailbreakCheckO30restrictedDirectoriesWriteableyA2CmF",
+            "moduleName": "MobileShield"
+          },
+          {
+            "kind": "Var",
+            "name": "fork",
+            "printedName": "fork",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileShield.JailbreakCheck.Type) -> MobileShield.JailbreakCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JailbreakCheck",
+                    "printedName": "MobileShield.JailbreakCheck",
+                    "usr": "s:12MobileShield14JailbreakCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileShield.JailbreakCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JailbreakCheck",
+                        "printedName": "MobileShield.JailbreakCheck",
+                        "usr": "s:12MobileShield14JailbreakCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MobileShield14JailbreakCheckO4forkyA2CmF",
+            "mangledName": "$s12MobileShield14JailbreakCheckO4forkyA2CmF",
+            "moduleName": "MobileShield"
+          },
+          {
+            "kind": "Var",
+            "name": "symbolicLinks",
+            "printedName": "symbolicLinks",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileShield.JailbreakCheck.Type) -> MobileShield.JailbreakCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JailbreakCheck",
+                    "printedName": "MobileShield.JailbreakCheck",
+                    "usr": "s:12MobileShield14JailbreakCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileShield.JailbreakCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JailbreakCheck",
+                        "printedName": "MobileShield.JailbreakCheck",
+                        "usr": "s:12MobileShield14JailbreakCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MobileShield14JailbreakCheckO13symbolicLinksyA2CmF",
+            "mangledName": "$s12MobileShield14JailbreakCheckO13symbolicLinksyA2CmF",
+            "moduleName": "MobileShield"
+          },
+          {
+            "kind": "Var",
+            "name": "dyld",
+            "printedName": "dyld",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileShield.JailbreakCheck.Type) -> MobileShield.JailbreakCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JailbreakCheck",
+                    "printedName": "MobileShield.JailbreakCheck",
+                    "usr": "s:12MobileShield14JailbreakCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileShield.JailbreakCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JailbreakCheck",
+                        "printedName": "MobileShield.JailbreakCheck",
+                        "usr": "s:12MobileShield14JailbreakCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MobileShield14JailbreakCheckO4dyldyA2CmF",
+            "mangledName": "$s12MobileShield14JailbreakCheckO4dyldyA2CmF",
+            "moduleName": "MobileShield"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakCheck",
+                "printedName": "MobileShield.JailbreakCheck",
+                "usr": "s:12MobileShield14JailbreakCheckO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakCheck",
+                "printedName": "MobileShield.JailbreakCheck",
+                "usr": "s:12MobileShield14JailbreakCheckO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield14JailbreakCheckO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12MobileShield14JailbreakCheckO2eeoiySbAC_ACtFZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MobileShield14JailbreakCheckO9hashValueSivp",
+            "mangledName": "$s12MobileShield14JailbreakCheckO9hashValueSivp",
+            "moduleName": "MobileShield",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield14JailbreakCheckO9hashValueSivg",
+                "mangledName": "$s12MobileShield14JailbreakCheckO9hashValueSivg",
+                "moduleName": "MobileShield",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MobileShield14JailbreakCheckO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12MobileShield14JailbreakCheckO4hash4intoys6HasherVz_tF",
+            "moduleName": "MobileShield",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MobileShield.JailbreakCheck]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JailbreakCheck",
+                    "printedName": "MobileShield.JailbreakCheck",
+                    "usr": "s:12MobileShield14JailbreakCheckO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MobileShield14JailbreakCheckO8allCasesSayACGvpZ",
+            "mangledName": "$s12MobileShield14JailbreakCheckO8allCasesSayACGvpZ",
+            "moduleName": "MobileShield",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MobileShield.JailbreakCheck]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JailbreakCheck",
+                        "printedName": "MobileShield.JailbreakCheck",
+                        "usr": "s:12MobileShield14JailbreakCheckO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MobileShield14JailbreakCheckO8allCasesSayACGvgZ",
+                "mangledName": "$s12MobileShield14JailbreakCheckO8allCasesSayACGvgZ",
+                "moduleName": "MobileShield",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12MobileShield14JailbreakCheckO",
+        "mangledName": "$s12MobileShield14JailbreakCheckO",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MobileShield.JailbreakCheck]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JailbreakCheck",
+                        "printedName": "MobileShield.JailbreakCheck",
+                        "usr": "s:12MobileShield14JailbreakCheckO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileShield",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoSwift",
+        "printedName": "CryptoSwift",
+        "declKind": "Import",
+        "moduleName": "MobileShield"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/DebuggerChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 17,
+      "value": "\"DebuggerChecker\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/RuntimeHookChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 8,
+      "value": "\"dladdr\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/RsaUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 434,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 14,
+      "value": "\"MobileShield\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "BooleanLiteral",
+      "offset": 500,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 551,
+      "length": 7,
+      "value": "\"AUUID\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 30,
+      "value": "\"XXXXXXXXXXXXXXXXXXXXXXXXXXXX\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 783,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 828,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 882,
+      "length": 13,
+      "value": "\"obfuscation\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 1004,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1103,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 1155,
+      "length": 9,
+      "value": "\"license\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 1212,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 1265,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 1318,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 1418,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "StringLiteral",
+      "offset": 1717,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShield.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1768,
+      "length": 4,
+      "value": "8192"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/ReverseEngineeringToolsChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 32,
+      "value": "\"ReverseEngineeringToolsChecker\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/LogUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 94,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/LogUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 138,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/LogUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 181,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/LogUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/LogUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/LogUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 367,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/FishHookChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5428,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/ScreenProtector.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 17,
+      "value": "\"ScreenProtector\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShieldController.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 24,
+      "value": "\"MobileShieldController\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/MobileShieldController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 306,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 752,
+      "length": 18,
+      "value": "\"JailbreakChecker\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/AES256Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 46,
+      "value": "\"00000000000000000000000000000000000000000000\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/AES256Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 46,
+      "value": "\"00000000000000000000000000000000000000000000\""
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/AES256Utils.swift",
+      "kind": "Array",
+      "offset": 399,
+      "length": 33,
+      "value": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    {
+      "filePath": "\/Users\/mac\/Downloads\/work\/src\/MorningSDK\/Distribution\/MorningSDK\/Library\/iOS\/MobileShield-iOS-SIM\/MobileShield\/AES256Utils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 464,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

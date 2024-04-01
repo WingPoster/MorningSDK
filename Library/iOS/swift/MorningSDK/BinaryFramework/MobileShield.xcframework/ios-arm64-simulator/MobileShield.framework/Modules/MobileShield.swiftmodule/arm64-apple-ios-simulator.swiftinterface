@@ -1,0 +1,153 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target arm64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name MobileShield
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CommonCrypto
+import CryptoKit
+import CryptoSwift
+import Darwin
+import Foundation
+import MachO
+@_exported import MobileShield
+import Network
+import Security
+import Swift
+import SwiftKeychainWrapper
+import SwiftyRSA
+import UIKit
+import _Concurrency
+import _StringProcessing
+import ed25519swift
+@objc @_inheritsConvenienceInitializers public class RSAUtils : ObjectiveC.NSObject {
+  public static func encryptWithRSAKey(_ data: Foundation.Data, rsaKeyRef: Security.SecKey, padding: Security.SecPadding) -> Foundation.Data?
+  public static func decryptWithRSAKey(_ encryptedData: Foundation.Data, rsaKeyRef: Security.SecKey, padding: Security.SecPadding) -> Foundation.Data?
+  public static func deleteRSAKeyFromKeychain(_ tagName: Swift.String)
+  public static func getRSAKeyFromKeychain(_ tagName: Swift.String) -> Security.SecKey?
+  public static func addRSAPrivateKey(_ privkeyBase64: Swift.String, tagName: Swift.String) -> Security.SecKey?
+  public static func addRSAPublicKey(_ pubkeyBase64: Swift.String, tagName: Swift.String) -> Security.SecKey?
+  public static func encryptWithRSAPrivateKey(_ data: Foundation.Data, privkeyBase64: Swift.String, keychainTag: Swift.String) -> Foundation.Data?
+  public static func encryptWithRSAPublicKey(_ data: Foundation.Data, pubkeyBase64: Swift.String, keychainTag: Swift.String) -> Foundation.Data?
+  public static func decryptWithRSAPrivateKey(_ encryptedData: Foundation.Data, privkeyBase64: Swift.String, keychainTag: Swift.String) -> Foundation.Data?
+  public static func decryptWithRSAPublicKey(_ encryptedData: Foundation.Data, pubkeyBase64: Swift.String, keychainTag: Swift.String) -> Foundation.Data?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @available(iOSApplicationExtension, unavailable)
+public class MobileShield {
+  public static func Jailbroken() -> Swift.Bool
+  public static func RunInEmulator() -> Swift.Bool
+  public static func Debugged() -> Swift.Bool
+  public static func Tampered(_ checks: [MobileShield.FileIntegrityCheck]) -> MobileShield.FileIntegrityCheckResult
+  public static func ReverseEngineered() -> Swift.Bool
+  public static func RuntimeHooked(dyldWhiteList: [Swift.String], detectionClass: Swift.AnyClass, selector: ObjectiveC.Selector, isClassMethod: Swift.Bool) -> Swift.Bool
+  public static func Proxied() -> Swift.Bool
+  public static func getMachOFileHashValue(_ target: MobileShield.IntegrityCheckerImageTarget = .default) -> Swift.String?
+  public static func findLoadedDylibs(_ target: MobileShield.IntegrityCheckerImageTarget = .default) -> [Swift.String]?
+  public static func BreakpointAt(_ functionAddr: Swift.UnsafeRawPointer, functionSize: Darwin.vm_size_t?) -> Swift.Bool
+  public static func initRSA2048String()
+  public static func encryptRSA2048String(plainText: Swift.String) -> Swift.String
+  public static func decryptRSA2048String(cipherText: Swift.String) -> Swift.String
+  public static func testRSA2048String()
+  public static func initECC25519KeyPair()
+  public static func getECC25519PublicKeyWithBase64() -> Swift.String
+  public static func getECC25519PrivateKeyWithBase64() -> Swift.String
+  public static func signECC25519WithBase64(message: Swift.String, privateKey: Swift.String) -> Swift.String
+  public static func verifyECC25519WithBase64(message: Swift.String, signature: Swift.String, publicKey: Swift.String) -> Swift.Bool
+  public static func testECC25519()
+  public static func decryptAES256WithString(cipherText: Swift.String, secretKey: Swift.String, salt: Swift.String) -> Swift.String?
+  public static func decryptAES256WithStringCore(cipherText: Swift.String, secretKey: Swift.String, salt: Swift.String) -> Swift.String?
+  public static func initAES256String()
+  public static func encryptAES256String(plainText: Swift.String) -> Swift.String
+  public static func decryptAES256String(cipherText: Swift.String) -> Swift.String
+  public static func testAES256String()
+  public static func computeSHA256String(plainText: Swift.String) -> Swift.String
+  public static func testSHA256String()
+  public static func writeString(key: Swift.String?, value: Swift.String?)
+  public static func readString(key: Swift.String) -> Swift.String?
+  public static func writeInteger(key: Swift.String?, value: Swift.Int?)
+  public static func readInteger(key: Swift.String) -> Swift.Int
+  public static func writeBool(key: Swift.String?, value: Swift.Bool?)
+  public static func readBool(key: Swift.String) -> Swift.Bool
+  public static func testEncryption()
+  public static func isScreenProtectEnabled() -> Swift.Bool
+  public static func isJailbrokenEnabled() -> Swift.Bool
+  public static func isRunInEmulatorEnabled() -> Swift.Bool
+  public static func isDebuggedEnabled() -> Swift.Bool
+  public static func isTamperedEnabled() -> Swift.Bool
+  public static func isReverseEngineeredEnabled() -> Swift.Bool
+  public static func isRuntimeHookedEnabled() -> Swift.Bool
+  public static func isProxiedEnabled() -> Swift.Bool
+  public static func isBreakpointAtEnabled() -> Swift.Bool
+  public static func isStringObfuscationEnabled() -> Swift.Bool
+  public static func setScreenProtectEnable(enable: Swift.Bool?)
+  public static func setJailbrokenEnable(enable: Swift.Bool?)
+  public static func setRunInEmulatorEnable(enable: Swift.Bool?)
+  public static func setDebuggedEnable(enable: Swift.Bool?)
+  public static func setTamperedEnable(enable: Swift.Bool?)
+  public static func setReverseEngineeredEnable(enable: Swift.Bool?)
+  public static func setRuntimeHookedEnable(enable: Swift.Bool?)
+  public static func setProxiedEnable(enable: Swift.Bool?)
+  public static func setBreakpointAtEnable(enable: Swift.Bool?)
+  public static func setStringObfuscationEnable(enable: Swift.Bool?)
+  public static func setObfuscation(obfuscationData: Swift.String)
+  public static func getObfuscation(symbol: Swift.String) -> Swift.String?
+  public static func setLicense(licenseData: Swift.String, configData: Swift.String)
+  public static func runScan()
+  public static func getAppID() -> Swift.String
+  public static func getAUUID() -> Swift.String
+  public static func isInit() -> Swift.Bool
+  public static func processExit()
+  public static func testMobileShield() -> Swift.String
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LogUtil : ObjectiveC.NSObject {
+  public static let LEVEL_NONE: Swift.Int
+  public static let LEVEL_ERROR: Swift.Int
+  public static let LEVEL_WARN: Swift.Int
+  public static let LEVEL_INFO: Swift.Int
+  public static let LEVEL_DEBUG: Swift.Int
+  public static var mLogLevel: Swift.Int
+  public static var mRemoteLogging: Swift.Bool
+  public static func addLog(level: Swift.Int, tag: Swift.String, log: Swift.String)
+  public static func setLogLevel(logLevel: Swift.Int)
+  public static func setRemoteLogging(on: Swift.Bool)
+  public static func isRemoteLogging() -> Swift.Bool
+  public static func sendLog(log: Swift.String)
+  @objc deinit
+}
+public enum FileIntegrityCheck {
+  case bundleID(Swift.String)
+  case mobileProvision(Swift.String)
+  case machO(Swift.String, Swift.String)
+}
+extension MobileShield.FileIntegrityCheck {
+  public var description: Swift.String {
+    get
+  }
+}
+public typealias FileIntegrityCheckResult = (result: Swift.Bool, hitChecks: [MobileShield.FileIntegrityCheck])
+public enum IntegrityCheckerImageTarget {
+  case `default`
+  case custom(Swift.String)
+}
+public typealias FailedCheck = (check: MobileShield.JailbreakCheck, failMessage: Swift.String)
+public enum JailbreakCheck : Swift.CaseIterable {
+  case urlSchemes
+  case existenceOfSuspiciousFiles
+  case suspiciousFilesCanBeOpened
+  case restrictedDirectoriesWriteable
+  case fork
+  case symbolicLinks
+  case dyld
+  public static func == (a: MobileShield.JailbreakCheck, b: MobileShield.JailbreakCheck) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [MobileShield.JailbreakCheck]
+  public static var allCases: [MobileShield.JailbreakCheck] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension MobileShield.JailbreakCheck : Swift.Equatable {}
+extension MobileShield.JailbreakCheck : Swift.Hashable {}
